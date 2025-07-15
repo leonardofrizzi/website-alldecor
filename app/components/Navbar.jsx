@@ -52,10 +52,12 @@ export default function Navbar() {
           </div>
 
           <div className="hidden md:flex flex-shrink-0">
-            <button className="flex items-center space-x-2 px-6 py-3 text-sm font-semibold rounded-full text-white bg-[#070b52] hover:bg-[#0a0f6c] transition-all duration-300 ease-in-out shadow-md">
-              <FaWhatsapp size={18} />
-              <span>Entre em Contato</span>
-            </button>
+            <Link href="https://wa.me/5521975950916" target="_blank">
+              <button className="flex items-center space-x-2 px-6 py-3 text-lg font-semibold rounded-full text-white bg-[#070b52] hover:bg-[#0a0f6c] transition-all duration-300 ease-in-out shadow-md">
+                <FaWhatsapp size={20} />
+                <span>Entre em Contato</span>
+              </button>
+            </Link>
           </div>
 
           <div className="md:hidden">
@@ -107,10 +109,12 @@ export default function Navbar() {
           </div>
 
           <div className="mt-auto p-4 border-t">
-             <button className="w-full flex items-center justify-center space-x-2 px-6 py-3 text-sm font-semibold rounded-full text-white bg-[#070b52] hover:bg-[#0a0f6c] transition-all duration-300 ease-in-out shadow-md">
-              <FaWhatsapp size={18} />
-              <span>Entre em Contato</span>
-            </button>
+             <Link href="https://wa.me/5521975950916" target="_blank" className="w-full">
+              <button className="w-full flex items-center justify-center space-x-2 px-6 py-3 text-lg font-semibold rounded-full text-white bg-[#070b52] hover:bg-[#0a0f6c] transition-all duration-300 ease-in-out shadow-md">
+                <FaWhatsapp size={20} />
+                <span>Entre em Contato</span>
+              </button>
+            </Link>
           </div>
         </div>
       </div>

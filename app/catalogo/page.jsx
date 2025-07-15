@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useInView } from 'react-intersection-observer';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
@@ -25,7 +26,7 @@ const products = [
     id: 'rolo',
     name: 'Persiana Rolô',
     description: 'Moderna e versátil, a persiana rolô é ideal para o controle de luz e privacidade. Disponível em tecidos translúcidos, blackout e tela solar.',
-    gallery: ['Rolô Imagem 1', 'Rolô Imagem 2', 'Rolô Imagem 3'],
+    gallery: ['/r1.webp', '/r2.webp', '/r3.webp', '/r3.webp', '/r4.webp', '/r5.webp', '/r6.webp'],
     details: 'A Persiana Rolô é uma solução prática e elegante para qualquer ambiente. Seu acionamento simples e design minimalista se adaptam a decorações modernas e clássicas. O tecido tela solar é perfeito para varandas gourmet, pois protege dos raios UV sem bloquear a vista. Já o tecido blackout é ideal para quartos, garantindo escuridão total.',
     benefits: [
       { icon: 'Sun', text: 'Controle Solar' },
@@ -37,7 +38,7 @@ const products = [
     id: 'romana',
     name: 'Persiana Romana',
     description: 'Com seu design em gomos, a persiana romana adiciona um toque de sofisticação e aconchego, sendo uma excelente escolha para salas e quartos.',
-    gallery: ['Romana Imagem 1', 'Romana Imagem 2', 'Romana Imagem 3'],
+    gallery: ['/ro1.webp', '/ro2.webp', '/ro3.webp', '/ro4.webp'],
     details: 'A Cortina Romana combina a praticidade de uma persiana com a elegância do tecido. Seus gomos horizontais criam um volume charmoso quando recolhida. Oferecemos uma vasta gama de tecidos, desde os mais leves até os mais encorpados, permitindo um controle de luminosidade preciso e um visual imponente.',
     benefits: [
       { icon: 'Sparkles', text: 'Visual Sofisticado' },
@@ -49,7 +50,7 @@ const products = [
     id: 'double-vision',
     name: 'Persiana Double Vision',
     description: 'Inovadora, a Double Vision alterna faixas translúcidas e opacas, permitindo um controle preciso da luminosidade e um visual único.',
-    gallery: ['Double Vision Imagem 1', 'Double Vision Imagem 2', 'Double Vision Imagem 3'],
+    gallery: ['/dv1.webp', '/dv2.webp', '/dv3.webp', '/dv4.webp', '/dv5.webp'],
     details: 'Também conhecida como "rolô dia e noite", a Double Vision é a escolha perfeita para quem busca versatilidade. Com um simples movimento, você pode alinhar as faixas para ter mais privacidade e menos luz, ou intercalá-las para uma iluminação suave e visibilidade externa.',
     benefits: [
         { icon: 'Sun', text: 'Luz e Privacidade' },
@@ -61,7 +62,7 @@ const products = [
     id: 'painel',
     name: 'Persiana Painel',
     description: 'Ideal para grandes vãos e portas de vidro, a persiana painel desliza suavemente em trilhos, oferecendo um visual limpo e contemporâneo.',
-    gallery: ['Painel Imagem 1', 'Painel Imagem 2', 'Painel Imagem 3'],
+    gallery: ['/p1.webp', '/p2.webp', '/p3.webp', '/p4.webp', '/p5.webp'],
     details: 'A Persiana Painel é a solução mais elegante para cobrir grandes janelas e dividir ambientes. Seus painéis de tecido se sobrepõem ao serem recolhidos, otimizando o espaço e proporcionando um controle eficaz da luminosidade.',
     benefits: [
         { icon: 'Sparkles', text: 'Grandes Vãos' },
@@ -73,7 +74,7 @@ const products = [
     id: 'vertical',
     name: 'Persiana Vertical',
     description: 'Um clássico versátil, a persiana vertical permite um controle preciso da luz através do giro de suas lâminas. Perfeita para escritórios e salas.',
-    gallery: ['Vertical Imagem 1', 'Vertical Imagem 2', 'Vertical Imagem 3'],
+    gallery: ['/v1.webp', '/v2.webp', '/v3.webp', '/v4.webp'],
     details: 'A Persiana Vertical é conhecida por sua funcionalidade e custo-benefício. Suas lâminas verticais podem ser giradas em até 180 graus, oferecendo total controle sobre a privacidade e a entrada de luz no ambiente.',
     benefits: [
         { icon: 'Sun', text: 'Controle de Giro' },
@@ -85,7 +86,7 @@ const products = [
     id: 'linho',
     name: 'Cortina de Linho',
     description: 'Trazendo leveza e um toque natural, as cortinas de linho criam um ambiente aconchegante e sofisticado, com um caimento impecável.',
-    gallery: ['Linho Imagem 1', 'Linho Imagem 2', 'Linho Imagem 3'],
+    gallery: ['/l1.webp', '/l2.webp', '/l3.webp', '/l4.webp', '/l5.webp', '/l6.webp'],
     details: 'A Cortina de Linho é sinônimo de elegância atemporal. Seu tecido nobre permite a passagem de uma luz suave e difusa, criando uma atmosfera acolhedora e confortável em salas de estar e quartos.',
     benefits: [
         { icon: 'Wind', text: 'Leveza e Fluidez' },
@@ -97,7 +98,7 @@ const products = [
     id: 'madeira',
     name: 'Persiana Linha Madeira',
     description: 'As persianas de madeira ou sintéticas trazem o calor e a nobreza do material para o ambiente, garantindo um visual robusto e elegante.',
-    gallery: ['Madeira Imagem 1', 'Madeira Imagem 2', 'Madeira Imagem 3'],
+    gallery: ['/m1.webp', '/m2.webp', '/m3.webp', '/m4.webp'],
     details: 'Disponíveis em madeira natural ou materiais sintéticos de alta durabilidade que imitam a madeira, estas persianas são perfeitas para quem busca um toque de rusticidade e sofisticação. Controlam a luz de forma eficaz e são muito resistentes.',
     benefits: [
         { icon: 'Sparkles', text: 'Material Nobre' },
@@ -107,10 +108,10 @@ const products = [
   },
   {
     id: 'acustica',
-    name: 'Cortina Acústica',
-    description: 'Projetada para reduzir ruídos externos, a cortina acústica melhora o conforto sonoro do ambiente sem abrir mão da estética.',
-    gallery: ['Acústica Imagem 1', 'Acústica Imagem 2', 'Acústica Imagem 3'],
-    details: 'Ideal para quartos e home theaters em áreas urbanas, a Cortina Acústica é feita com tecidos densos e camadas especiais que barram parte das ondas sonoras, proporcionando um ambiente mais silencioso e tranquilo.',
+    name: 'Persiana Celular Acústica',
+    description: 'Com formato de colmeia, oferece excelente isolamento térmico e acústico, ideal para um maior conforto e silêncio no ambiente.',
+    gallery: ['/a1.webp', '/a2.webp'],
+    details: 'Ideal para quartos e home theaters, a Persiana Celular possui um formato de colmeia que cria bolsões de ar, oferecendo excelente isolamento térmico e acústico. Ela barra parte das ondas sonoras e bloqueia a luz, proporcionando um ambiente mais silencioso e confortável.',
     benefits: [
         { icon: 'Waves', text: 'Redução de Ruído' },
         { icon: 'EyeOff', text: 'Bloqueio de Luz' },
@@ -129,18 +130,16 @@ const ProductModal = ({ product, onClose }) => {
           <X size={28} />
         </button>
         <div className="grid grid-cols-1 md:grid-cols-2 h-full">
-          <div className="w-full h-64 md:h-full bg-gray-100 rounded-l-lg">
+          <div className="relative w-full h-64 md:h-full bg-gray-100 rounded-l-lg">
             <Swiper
               modules={[Navigation, Pagination]}
               navigation
               pagination={{ clickable: true }}
               className="w-full h-full"
             >
-              {product.gallery.map((text, index) => (
-                <SwiperSlide key={index} className="flex items-center justify-center">
-                  <div className="w-full h-full bg-gray-200 flex items-center justify-center">
-                    <span className="text-gray-500">{text}</span>
-                  </div>
+              {product.gallery.map((imgSrc, index) => (
+                <SwiperSlide key={index}>
+                  <Image src={imgSrc} alt={`${product.name} - Imagem ${index + 1}`} layout="fill" className="object-cover" />
                 </SwiperSlide>
               ))}
             </Swiper>
@@ -179,19 +178,19 @@ const ProductCategory = ({ product, onOpenModal, reverse = false }) => {
   return (
     <div ref={ref} className={`flex flex-col ${directionClass} items-center gap-8 lg:gap-16 transition-all duration-1000 ease-out ${inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
       <div className="w-full lg:w-1/2">
-        <Swiper
-          modules={[Navigation]}
-          navigation
-          className="w-full rounded-lg shadow-xl"
-        >
-          {product.gallery.map((text, index) => (
-            <SwiperSlide key={index}>
-              <div className="w-full h-[350px] bg-gray-200 flex items-center justify-center">
-                <span className="text-gray-500">{text}</span>
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
+        <div className="w-full aspect-[4/3] rounded-lg shadow-xl overflow-hidden relative">
+          <Swiper
+            modules={[Navigation]}
+            navigation
+            className="w-full h-full"
+          >
+            {product.gallery.map((imgSrc, index) => (
+              <SwiperSlide key={index}>
+                <Image src={imgSrc} alt={`${product.name} - Imagem ${index + 1}`} layout="fill" className="object-cover" />
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
       </div>
       <div className="w-full lg:w-1/2 text-center lg:text-left">
         <h2 className="text-3xl font-bold text-gray-800 mb-4">{product.name}</h2>

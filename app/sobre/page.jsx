@@ -33,13 +33,13 @@ export default function AboutPage() {
         <div ref={ref1} className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className={`transition-all duration-1000 ease-out ${inView1 ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`}>
             <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-              Mais de duas décadas decorando lares no Rio de Janeiro
+              Paixão por transformar ambientes no Rio de Janeiro
             </h1>
             <p className="text-lg text-gray-600 mb-4">
-              Fundada no coração do Rio de Janeiro, a All Decor nasceu da paixão por transformar ambientes. Com mais de 20 anos de experiência, nos especializamos na fabricação e instalação de cortinas e persianas sob medida, combinando design, qualidade e funcionalidade.
+              A All Decor nasceu da paixão por transformar ambientes. Nos especializamos na fabricação e instalação de cortinas e persianas sob medida, combinando design, qualidade e funcionalidade.
             </p>
             <p className="text-lg text-gray-600">
-              Nossa equipe atende toda a cidade e região, levando soluções personalizadas que refletem o estilo e as necessidades de cada cliente. Acreditamos que cada janela é uma oportunidade de criar um novo cenário.
+              Nossa equipe atende todo o estado do Rio de Janeiro, levando soluções personalizadas que refletem o estilo e as necessidades de cada cliente. Acreditamos que cada janela é uma oportunidade de criar um novo cenário.
             </p>
           </div>
           <div className={`flex justify-center lg:justify-end transition-all duration-1000 ease-out delay-200 ${inView1 ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-10'}`}>

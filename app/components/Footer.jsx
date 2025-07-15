@@ -30,7 +30,7 @@ export default function Footer() {
             <ul className="space-y-3 text-gray-300">
               <li className="flex items-center justify-center md:justify-start gap-3">
                 <MapPin size={16} />
-                <span>Rua Fictícia, 123 - Bairro, Cidade - SP</span>
+                <span>Rod Prefeito João Sampaio, 1020 - Maria Paula, Niterói - RJ</span>
               </li>
               <li className="flex items-center justify-center md:justify-start gap-3">
                 <Mail size={16} />
@@ -38,7 +38,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center justify-center md:justify-start gap-3">
                 <FaWhatsapp size={16} />
-                <a href="https://wa.me/SEUNUMERO" target="_blank" className="hover:text-white">(11) 99999-8888</a>
+                <a href="https://wa.me/5521975950916" target="_blank" className="hover:text-white">(21) 97595-0916</a>
               </li>
             </ul>
           </div>

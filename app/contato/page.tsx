@@ -31,12 +31,11 @@ export default function ContactPage() {
               <div>
                 <h3 className="text-xl font-semibold text-gray-800">WhatsApp</h3>
                 <p className="text-gray-600">Nosso canal direto para um atendimento ágil.</p>
-                <a href="https://wa.me/SEUNUMERO" target="_blank" className="text-[#070b52] font-bold hover:underline mt-1 inline-block">
-                  Iniciar Conversa
+                <a href="https://wa.me/5521975950916" target="_blank" className="text-[#070b52] font-bold hover:underline mt-1 inline-block">
+                  (21) 97595-0916
                 </a>
               </div>
             </div>
-            {/* Card Email */}
             <div className="bg-white p-6 rounded-lg shadow-lg flex items-center gap-4">
               <Mail size={32} className="text-[#070b52]" />
               <div>
@@ -81,7 +80,7 @@ export default function ContactPage() {
 
       <div className="w-full h-[450px] bg-gray-300">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1459093969!2d-46.65657118440693!3d-23.56309936754165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0x206d055a5286969e!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1673880993848!5m2!1spt-BR!2sbr"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.828562688463!2d-43.02390568853879!3d-22.80873197922238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x999b0de735624d%3A0x82307c699981f9a6!2sRod.%20Pref.%20Jo%C3%A3o%20Sampaio%2C%201020%20-%20Maria%20Paula%2C%20Niter%C3%B3i%20-%20RJ%2C%2024325-330!5e0!3m2!1spt-BR!2sbr!4v1720880197711!5m2!1spt-BR!2sbr"
           width="100%"
           height="100%"
           style={{ border: 0 }}

@@ -69,7 +69,7 @@ export default function HowItWorksSection() {
         </div>
 
         <div className="mt-16">
-          <Link href="https://wa.me/SEUNUMERO" target="_blank">
+          <Link href="https://wa.me/5521975950916" target="_blank">
             <button className="inline-flex items-center justify-center gap-3 bg-white text-[#070b52] font-bold py-3 px-8 rounded-full text-lg hover:bg-gray-200 transition-all duration-300 ease-in-out transform hover:scale-105 shadow-lg">
               <FaWhatsapp size={20} />
               Agendar visita gratuita

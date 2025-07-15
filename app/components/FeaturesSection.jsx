@@ -62,7 +62,7 @@ export default function FeaturesSection() {
           </FeatureCard>
         </div>
 
-        <Link href="https://wa.me/SEUNUMERO" target="_blank">
+        <Link href="https://wa.me/5521975950916" target="_blank">
           <button className="inline-flex items-center justify-center gap-3 bg-[#070b52] text-white font-bold py-3 px-8 rounded-full text-lg hover:bg-[#0a0f6c] transition-all duration-300 ease-in-out transform hover:scale-105 shadow-lg">
             <FaWhatsapp size={24} />
             Fale Conosco
