@@ -43,7 +43,7 @@ export default function HowItWorksSection() {
   return (
     <section className="bg-[#070b52] py-20 px-6 text-white">
       <div className="container mx-auto text-center">
-        <h2 className="text-4xl font-bold mb-4">Nosso Processo, Sua Tranquilidade</h2>
+        <h2 className="text-4xl font-bold mb-4">Nosso Processo,<br></br> sua tranquilidade</h2>
         <p className="text-lg text-gray-300 mb-16 max-w-3xl mx-auto">
           Simplificamos cada etapa para que você tenha a melhor experiência, do início ao fim.
         </p>
