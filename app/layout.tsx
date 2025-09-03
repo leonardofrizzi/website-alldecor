@@ -19,20 +19,21 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: {
+  children: React.ReactNode
+}) {
   return (
     <html lang="pt-BR">
-      <body className={`${montserrat.variable} font-sans antialiased`}>
-        <Navbar/>
-        <main className="pt-22">
-          {children}
-        </main>
-        <Footer />
-        <CookieConsent /> 
-        <WhatsAppButton />
-      </body>
+      {/* Google tag (gtag.js) */}
+      <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17529545370"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'AW-17529545370');
+      </script>
+      <body>{children}</body>
     </html>
-  );
+  )
 }
