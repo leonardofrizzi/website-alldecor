@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import CookieConsent from "./components/CookieConsent";
 import WhatsAppButton from "./components/WhatsAppButton";
-import Script from 'next/script'; // Added import
+import Script from 'next/script';
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -38,7 +38,13 @@ export default function RootLayout({
           gtag('config', 'AW-17529545370');
         `}
       </Script>
-      <body>{children}</body>
+      <body className={`${montserrat.variable} font-sans`}>
+        <Navbar />
+        <main className="pt-[90px]">{children}</main>
+        <Footer />
+        <CookieConsent />
+        <WhatsAppButton />
+      </body>
     </html>
   )
 }
