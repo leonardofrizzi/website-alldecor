@@ -28,7 +28,7 @@ export default function HeroSection() {
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: "url('/hero.webp')",
+          backgroundImage: "url('/heroe.webp')",
         }}
         aria-hidden="true"
       ></div>
@@ -52,11 +52,11 @@ export default function HeroSection() {
         </div>
 
         <h1 className={`text-4xl sm:text-5xl md:text-6xl font-bold leading-tight mb-4 shadow-text ${montserrat.className} transition-all duration-700 ease-out delay-200 ${isMounted ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-8'}`}>
-          Cortinas e persianas sob medida
+          Esquadrias e Cortinas de Vidro Sob Medida
         </h1>
 
         <p className={`text-lg sm:text-xl md:text-2xl mb-8 font-light shadow-text ${roboto.className} transition-all duration-700 ease-out delay-300 ${isMounted ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-8'}`}>
-          Fabricação própria com a qualidade e o design que seu ambiente merece.
+          Soluções em vidro para valorizar seu ambiente com elegância e segurança.
         </p>
 
         <Link href="/catalogo">

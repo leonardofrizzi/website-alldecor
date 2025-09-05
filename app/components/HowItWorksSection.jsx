@@ -43,33 +43,33 @@ export default function HowItWorksSection() {
   return (
     <section className="bg-[#070b52] py-20 px-6 text-white">
       <div className="container mx-auto text-center">
-        <h2 className="text-4xl font-bold mb-4">Nosso Processo,<br></br> sua tranquilidade</h2>
+        <h2 className="text-4xl font-bold mb-4">Da Medição à Instalação,<br></br> Cuidamos de Tudo</h2>
         <p className="text-lg text-gray-300 mb-16 max-w-3xl mx-auto">
-          Simplificamos cada etapa para que você tenha a melhor experiência, do início ao fim.
+          Nosso processo é pensado para sua comodidade, garantindo um resultado que une estética, segurança e a valorização do seu imóvel.
         </p>
 
         <div className="relative flex flex-col items-center gap-12">
           <div className="hidden md:block absolute top-0 left-1/2 -translate-x-1/2 h-full w-1 bg-white/30 rounded"></div>
 
-          <TimelineStep icon={<MessageSquare size={32} />} step="1" title="Consulta e Orçamento" isRight={false} delay="200ms">
-            Você entra em contato e agendamos uma visita. Medimos seu espaço e apresentamos as melhores opções, tudo sem custo ou compromisso.
+          <TimelineStep icon={<MessageSquare size={32} />} step="1" title="Consulta e Projeto" isRight={false} delay="200ms">
+            Você entra em contato e nossa equipe técnica vai até o local para entender suas necessidades, realizar a medição precisa e desenhar a solução ideal para seu espaço.
           </TimelineStep>
 
-          <TimelineStep icon={<Scaling size={32} />} step="2" title="Produção Sob Medida" isRight={true} delay="400ms">
-            Com as medidas e materiais definidos, iniciamos a fabricação. Cada peça é produzida com precisão e materiais de alta qualidade.
+          <TimelineStep icon={<Scaling size={32} />} step="2" title="Fabricação Precisa" isRight={true} delay="400ms">
+            Com o projeto aprovado, iniciamos a fabricação das suas esquadrias ou cortinas de vidro. Utilizamos materiais de alta qualidade e tecnologia de ponta para um acabamento perfeito.
           </TimelineStep>
 
-          <TimelineStep icon={<Wrench size={32} />} step="3" title="Instalação Profissional" isRight={false} delay="600ms">
-            Nossa equipe especializada realiza a instalação de forma rápida, limpa e eficiente, garantindo um acabamento perfeito.
+          <TimelineStep icon={<Wrench size={32} />} step="3" title="Instalação Segura" isRight={false} delay="600ms">
+            Nossos instaladores especializados garantem que tudo seja montado com máxima segurança e eficiência, seguindo rigorosamente as normas técnicas e o projeto definido.
           </TimelineStep>
 
-          <TimelineStep icon={<Smile size={32} />} step="4" title="Seu Ambiente Transformado" isRight={true} delay="800ms">
-            Pronto! Agora é só aproveitar seu novo ambiente, mais bonito e funcional, com a garantia de qualidade All Decor.
+          <TimelineStep icon={<Smile size={32} />} step="4" title="Valorização e Conforto" isRight={true} delay="800ms">
+            Pronto! Seu ambiente está mais seguro, moderno e valorizado. Desfrute do conforto e da estética que só as soluções da All Vidro Esquadrias oferecem.
           </TimelineStep>
         </div>
 
         <div className="mt-16">
-          <Link href="https://wa.me/5521975950916?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20Alldecor." target="_blank">
+          <Link href="https://wa.me/5521991243966?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20All%20Vidro%20Esquadrias." target="_blank">
             <button className="inline-flex items-center justify-center gap-3 bg-white text-[#070b52] font-bold py-3 px-8 rounded-full text-lg hover:bg-gray-200 transition-all duration-300 ease-in-out transform hover:scale-105 shadow-lg">
               <FaWhatsapp size={20} />
               Agendar visita gratuita
