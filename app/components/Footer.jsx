@@ -13,15 +13,15 @@ export default function Footer() {
             <div className="bg-white p-4 rounded-lg inline-block">
               <Link href="/">
                 <Image 
-                  src="/alldecor.webp" 
-                  alt="Logo All Decor" 
+                  src="/esquadrias.webp" 
+                  alt="Logo All Vidro Esquadrias" 
                   width={180} 
                   height={63}
                 />
               </Link>
             </div>
             <p className="mt-4 text-gray-300 text-sm">
-              Transformando ambientes com cortinas e persianas de fabricação própria.
+              Soluções em vidro e esquadrias de alumínio para seus projetos.
             </p>
           </div>
 
@@ -38,7 +38,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center justify-center md:justify-start gap-3">
                 <FaWhatsapp size={16} />
-                <a href="https://wa.me/5521975950916?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20Alldecor." target="_blank" className="hover:text-white">(21) 97595-0916</a>
+                <a href="https://wa.me/5521991243966?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20All%20Vidro%20Esquadrias." target="_blank" className="hover:text-white">(21) 99124-3966</a>
               </li>
             </ul>
           </div>
@@ -65,7 +65,7 @@ export default function Footer() {
 
         <div className="mt-12 border-t border-white/20 py-6 text-center md:flex md:justify-between">
           <p className="text-gray-400 text-sm mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} All Decor. Todos os direitos reservados.
+            &copy; {new Date().getFullYear()} All Vidro Esquadrias. Todos os direitos reservados.
           </p>
           <Link href="/politica-de-privacidade" className="text-gray-400 hover:text-white text-sm">
             Política de Privacidade

@@ -16,10 +16,10 @@ export default function ContactPage() {
       <div ref={ref} className="container mx-auto px-6 py-20">
         <div className={`text-center mb-16 transition-all duration-1000 ease-out ${inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
-            Fale Conosco
+            Fale com a All Vidro Esquadrias
           </h1>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Tem alguma dúvida ou gostaria de solicitar um orçamento? Escolha a melhor forma de nos contatar. Estamos prontos para atender você!
+            Tem alguma dúvida ou gostaria de solicitar um orçamento? Escolha a melhor forma de nos contatar. Nossa equipe de especialistas está pronta para atender você!
           </p>
         </div>
 
@@ -31,8 +31,8 @@ export default function ContactPage() {
               <div>
                 <h3 className="text-xl font-semibold text-gray-800">WhatsApp</h3>
                 <p className="text-gray-600">Nosso canal direto para um atendimento ágil.</p>
-                <a href="https://wa.me/5521975950916?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20Alldecor." target="_blank" className="text-[#070b52] font-bold hover:underline mt-1 inline-block">
-                  (21) 97595-0916
+                <a href="https://wa.me/5521991243966?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20All%20Vidro%20Esquadrias." target="_blank" className="text-[#070b52] font-bold hover:underline mt-1 inline-block">
+                  (21) 99124-3966
                 </a>
               </div>
             </div>
@@ -87,7 +87,7 @@ export default function ContactPage() {
           allowFullScreen={true}
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          title="Localização da All Decor"
+          title="Localização da All Vidro Esquadrias"
         ></iframe>
       </div>
     </div>

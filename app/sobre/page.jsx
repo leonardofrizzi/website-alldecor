@@ -33,19 +33,19 @@ export default function AboutPage() {
         <div ref={ref1} className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className={`transition-all duration-1000 ease-out ${inView1 ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`}>
             <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-              Paixão por transformar ambientes no Rio de Janeiro
+              Especialistas em Vidro e Alumínio no Rio de Janeiro
             </h1>
             <p className="text-lg text-gray-600 mb-4">
-              A All Decor nasceu da paixão por transformar ambientes. Nos especializamos na fabricação e instalação de cortinas e persianas sob medida, combinando design, qualidade e funcionalidade.
+              A All Vidro Esquadrias nasceu com o propósito de oferecer soluções inovadoras e de alta qualidade em vidro e alumínio. Somos especialistas na fabricação e instalação de cortinas de vidro, esquadrias, janelas, portas e mais.
             </p>
             <p className="text-lg text-gray-600">
-              Nossa equipe atende todo o estado do Rio de Janeiro, levando soluções personalizadas que refletem o estilo e as necessidades de cada cliente. Acreditamos que cada janela é uma oportunidade de criar um novo cenário.
+              Com atendimento em todo o estado do Rio de Janeiro, nossa equipe se dedica a entregar projetos personalizados que unem segurança, design e funcionalidade, valorizando cada detalhe do seu ambiente.
             </p>
           </div>
           <div className={`flex justify-center lg:justify-end transition-all duration-1000 ease-out delay-200 ${inView1 ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-10'}`}>
             <Image
-              src="/sobre.webp"
-              alt="Sala de estar com cortinas elegantes"
+              src="/1013.webp"
+              alt="Ambiente com soluções em vidro da All Vidro Esquadrias"
               width={400}
               height={500}
               className="rounded-lg shadow-2xl object-cover w-full h-full max-w-sm lg:max-w-md"
@@ -59,13 +59,13 @@ export default function AboutPage() {
           <h2 className="text-4xl font-bold mb-12">Nossos Pilares</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
             <ValueCard icon={<Target size={32} />} title="Missão" delay="200ms">
-              Oferecer soluções em cortinas e persianas que unam estética e funcionalidade, superando as expectativas de nossos clientes.
+              Oferecer soluções em vidro e alumínio que combinem estética, segurança e durabilidade, superando as expectativas dos nossos clientes.
             </ValueCard>
             <ValueCard icon={<Eye size={32} />} title="Visão" delay="400ms">
-              Ser a empresa referência em decoração de janelas no Rio de Janeiro, reconhecida pela inovação e excelência no atendimento.
+              Ser a empresa referência em esquadrias e envidraçamento de ambientes no Rio de Janeiro, reconhecida pela excelência técnica e inovação.
             </ValueCard>
             <ValueCard icon={<Gem size={32} />} title="Valores" delay="600ms">
-              Compromisso com a qualidade, transparência nas relações, paixão pelo design e respeito total aos nossos clientes e colaboradores.
+              Compromisso com a qualidade, segurança em primeiro lugar, transparência nas relações e foco total na satisfação do cliente.
             </ValueCard>
           </div>
         </div>
@@ -74,10 +74,10 @@ export default function AboutPage() {
       <div className="bg-white py-20 px-6">
         <div className="container mx-auto text-center max-w-3xl">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-            Vamos criar juntos o seu próximo ambiente?
+            Vamos valorizar seu imóvel juntos?
           </h2>
           <p className="text-lg text-gray-600 mb-8">
-            Nossa equipe está pronta para transformar suas ideias em realidade. Entre em contato e solicite um orçamento sem compromisso.
+            Nossa equipe está pronta para transformar seu projeto em realidade. Entre em contato e solicite um orçamento sem compromisso.
           </p>
           <Link href="/contato">
             <button className="inline-flex items-center justify-center gap-3 bg-[#070b52] text-white font-bold py-3 px-8 rounded-full text-lg hover:bg-[#0a0f6c] transition-all duration-300 ease-in-out transform hover:scale-105 shadow-lg">

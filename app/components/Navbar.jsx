@@ -27,7 +27,7 @@ export default function Navbar() {
           <div className="flex-shrink-0">
             <Link href="/">
                 <Image 
-                  src="/alldecor.webp" 
+                  src="/esquadrias.webp" 
                   alt="Logo All Decor" 
                   width={200} 
                   height={70}
@@ -52,7 +52,7 @@ export default function Navbar() {
           </div>
 
           <div className="hidden md:flex flex-shrink-0">
-            <Link href="https://wa.me/5521975950916?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20Alldecor." target="_blank">
+            <Link href="https://wa.me/5521991243966?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20All%20Vidro%20Esquadrias." target="_blank">
               <button className="flex items-center space-x-2 px-6 py-3 text-lg font-semibold rounded-full text-white bg-[#070b52] hover:bg-[#0a0f6c] transition-all duration-300 ease-in-out shadow-md">
                 <FaWhatsapp size={20} />
                 <span>Entre em Contato</span>
@@ -84,7 +84,7 @@ export default function Navbar() {
           <div className="flex items-center justify-between p-4 border-b">
             <Link href="/" onClick={toggleMenu}>
                 <Image 
-                    src="/alldecor.webp" 
+                    src="/esquadrias.webp" 
                     alt="Logo All Decor" 
                     width={110} 
                     height={35}
@@ -109,7 +109,7 @@ export default function Navbar() {
           </div>
 
           <div className="mt-auto p-4 border-t">
-             <Link href="https://wa.me/5521975950916?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20Alldecor." target="_blank" className="w-full">
+             <Link href="https://wa.me/5521991243966?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20All%20Vidro%20Esquadrias." target="_blank" className="w-full">
               <button className="w-full flex items-center justify-center space-x-2 px-6 py-3 text-lg font-semibold rounded-full text-white bg-[#070b52] hover:bg-[#0a0f6c] transition-all duration-300 ease-in-out shadow-md">
                 <FaWhatsapp size={20} />
                 <span>Entre em Contato</span>

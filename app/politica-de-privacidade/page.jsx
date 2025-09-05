@@ -18,7 +18,7 @@ export default function PrivacyPolicyPage() {
         </h1>
 
         <Paragraph>
-          A sua privacidade é importante para nós. É política da All Decor respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar no site All Decor, e outros sites que possuímos e operamos.
+          A sua privacidade é importante para nós. É política da All Vidro Esquadrias respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar no site All Vidro Esquadrias, e outros sites que possuímos e operamos.
         </Paragraph>
 
         <SectionTitle>1. Coleta de Dados</SectionTitle>
