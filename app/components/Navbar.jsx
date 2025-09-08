@@ -28,7 +28,7 @@ export default function Navbar() {
             <Link href="/">
                 <Image 
                   src="/esquadrias.webp" 
-                  alt="Logo All Decor" 
+                  alt="Logo All Vidro Esquadrias" 
                   width={200} 
                   height={70}
                   priority
@@ -85,7 +85,7 @@ export default function Navbar() {
             <Link href="/" onClick={toggleMenu}>
                 <Image 
                     src="/esquadrias.webp" 
-                    alt="Logo All Decor" 
+                    alt="Logo All Vidro Esquadrias" 
                     width={110} 
                     height={35}
                 />

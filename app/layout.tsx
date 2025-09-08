@@ -14,8 +14,8 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "ALL Decor - Cortinas e persianas",
-  description: "Especialistas em cortinas e persianas para transformar seu ambiente.",
+  title: "All Vidro Esquadrias - Soluções em Vidro e Alumínio",
+  description: "Especialistas em esquadrias de alumínio e vidros sob medida para transformar seu ambiente.",
 };
 
 export default function RootLayout({
