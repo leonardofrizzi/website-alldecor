@@ -34,7 +34,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center justify-center md:justify-start gap-3">
                 <Mail size={16} />
-                <a href="mailto:contato@alldecor.com.br" className="hover:text-white">contato@alldecor.com.br</a>
+                <a href="mailto:contato@alldecor.com.br" className="hover:text-white">contato@allvidroesquadrias.com.br</a>
               </li>
               <li className="flex items-center justify-center md:justify-start gap-3">
                 <FaWhatsapp size={16} />

@@ -52,7 +52,7 @@ export default function HeroSection() {
         </div>
 
         <h1 className={`text-4xl sm:text-5xl md:text-6xl font-bold leading-tight mb-4 shadow-text ${montserrat.className} transition-all duration-700 ease-out delay-200 ${isMounted ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-8'}`}>
-          Esquadrias e Cortinas de Vidro Sob Medida
+          Esquadrias e Vidro Sob Medida
         </h1>
 
         <p className={`text-lg sm:text-xl md:text-2xl mb-8 font-light shadow-text ${roboto.className} transition-all duration-700 ease-out delay-300 ${isMounted ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-8'}`}>
