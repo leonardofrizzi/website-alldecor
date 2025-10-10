@@ -30,7 +30,7 @@ export default function Footer() {
             <ul className="space-y-3 text-gray-300">
               <li className="flex items-center justify-center md:justify-start gap-3">
                 <MapPin size={16} />
-                <span>Rod Prefeito João Sampaio, 1020 - Maria Paula, Niterói - RJ</span>
+                <span>Rua Santa Clara 70 loja 902, Copacabana - RJ</span>
               </li>
               <li className="flex items-center justify-center md:justify-start gap-3">
                 <Mail size={16} />
