@@ -80,7 +80,7 @@ export default function ContactPage() {
 
       <div className="w-full h-[450px] bg-gray-300">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.828562688463!2d-43.02390568853879!3d-22.80873197922238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x999b0de735624d%3A0x82307c699981f9a6!2sRod.%20Pref.%20Jo%C3%A3o%20Sampaio%2C%201020%20-%20Maria%20Paula%2C%20Niter%C3%B3i%20-%20RJ%2C%2024325-330!5e0!3m2!1spt-BR!2sbr!4v1720880197711!5m2!1spt-BR!2sbr"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.183926897434!2d-43.18840492346147!3d-22.96972373816942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd5461b9e0d8b%3A0x3b3e3e3e3e3e3e3e!2sRua%20Santa%20Clara%2C%2070%20-%20Copacabana%2C%20Rio%20de%20Janeiro%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1710000000000!5m2!1spt-BR!2sbr"
           width="100%"
           height="100%"
           style={{ border: 0 }}
